@@ -1,0 +1,13 @@
+<html>
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<head>
+    <title>About me</title>
+</head>
+<script src="{% static 'js/demo.js' %}"></script>
+<a href="{% url 'home' %}" class="link">HOME</a>
+<h1>About me</h1>
+<h3>Aman Vadher</h3>
+<img src="{% static 'images/aman.png' %}" height="300px" width="300px" onclick="viewmsg();" />
+</html>
